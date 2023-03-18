@@ -1,29 +1,96 @@
+* {
+    color: white;
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+
+.sidebar {
+    box-sizing: content-box;
+    background-color: #fa4454;
+    position: sticky;
+    padding: 125px;
+    margin-right: 75px;
+    float: left;
+    clear: none;
+    height: 2000px;
+    position: sticky;
+}
+
+.h2 {
+    font-size: larger;
+}
+
+.Banner {
+    width: 200%;
+    height: auto;
+    object-fit: cover;
+    max-height: 450px;
+    background-size: 200px;
+    background-position: center;
+    padding-bottom: 40px;
+    border-style: hidden hidden solid hidden;
+    border-color: black;
+}
+
+#firstIntro {
+    font-size: larger;
+
+}
+
+#valorantOne {
+    float: right;
+
+}
+
+.topSection {
+    width: 100%;
+
+}
+
+.topDiv {
+    float: right;
+
+}
+
+.pad50 {
+    padding-left: 50px;
+}
 img {
     width: 600px;
 }
 
+.blackText {
+    width: 600px;
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+
+}
 p.headertext {
     font-weight: bold;
-    font-size: 10%;
+    /*font-size: 200%;*/
 
 }
 
 em {
-    color: red;
+    color: #fa4454;
     font-style: normal;
+    font-size: inherit;
 }
 
 
 .agentType {
-    font-size: 150%;
+    font-size: larger;
     font-weight: bold;
 
 
 }
 
 .agentDesc {
-    font-variant: small-caps;
     line-height: 32px;
+
 
 }
 
@@ -33,22 +100,26 @@ em {
 
 }
 
+.align-left {
+    text-align: left;
+
+}
 #topTitle {
     border-style: hidden hidden solid hidden;
     border-width: 3px;
     border-left-width: 10px;
     border-right-width: 10px;
-    border-color: black;
+    border-color: white;
     padding: 50px 50px 50px 50px;
 }
 
 .agentList {
     font-weight: bold;
-    font-variant: small-caps;
+    font-size: larger;
 }
 
 .red {
-    color: red
+    color: #fa4454;
 }
 
 .bottomPadding {
@@ -58,5 +129,28 @@ em {
 table,
 th,
 td {
-    border: 1px solid black;
-}
+    border: 1px solid white;
+    }
+    
+    body {
+        background-size: 100%;
+        background-position: top center;
+        background-image: url("images/valo.png");
+    }
+    
+    .sticky {
+    
+        position: sticky;
+    }
+    
+    .links {
+        color: rgb(241, 91, 91);
+    }
+    
+    .clear_right {
+        clear: right;
+    }
+    
+    .clear_left {
+        clear: left;
+    }
