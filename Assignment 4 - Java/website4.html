@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Other Website
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="bold">The Other Website</h1>
+    </header>
+    <main>
+        <!--Sidebar. ID will get from Javascript stuff-->
+        <div class="sidebar bold">
+            <h2>Here's my grocery list for this week:</h2>
+            <ul id="groceryList"></ul>
+        </div>
+<!--Beginning of Calculator chaos-->
+        <label for="inputField">Do you want to do math?
+        </label>
+        <input type="text" id="inputField">
+        <button id="submitBtn" class="button">Submit</button>
+        <p id="outputText" class="bold"></p>
+<!--Choose your character! (Smash bros music plays)-->
+        <p>Background Choices:
+            <select id="dropdown">
+                <option value="option4">Option 1</option>
+                <option value="option1">Option 2</option>
+                <option value="option2">Option 3</option>
+                <!--If you're looking here, i mighta got u again... Unfortunate.-->
+                <option value="option3">Option 5</option>
+            </select>
+        </p>
+<!--As elden ring comments say, "truth found ahead"-->
+        <p class="bold">In this calculator we do the only math you'll need to know.
+            <br> For example: Addition. How many bananas do u need
+            if you already got four at home? One more. One plus four is five.
+        </p>
+        <form>
+            <label for="operator" class="bold">Pick an operation from our all-encompasing list: <br></label>
+            <select id="operator" name="operator">
+                <option value="*">Multiplication</option>
+                <option value="/">Division</option>
+                <option value="+">Addition</option>
+                <option value="-">Subtraction</option>
+            </select>
+            <label for="num1" class="bold">Write the first number:</label>
+            <input type="number" id="num1" name="num1"><br><br>
+
+            <label for="num2" class="bold">Write the second number:</label>
+            <input type="number" id="num2" name="num2"><br><br>
+
+
+            <br>
+
+            <button class="button" type="button" onclick="calculator.calculate()">Calculate</button><br>
+            <p class="bold">
+                Result: <span id="result"> pick numbers plz</span></p>
+        </form>
+    </main>
+    <footer>
+        <!--see Line 37-->
+        <p>&copy Rights are Reserved by someone cool </p>
+    </footer>
+    <!--I watched a video from YT where the dude said put this in the bottom, so I did. Makes sense to initalize whole page before doing fancy stuff-->
+    <script src="javastuff.js"></script>
+</body>
+
+</html>
